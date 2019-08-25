@@ -8,7 +8,8 @@ module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    port: 8585
   },
   entry: {
     app: './src/index.js',
