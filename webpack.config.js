@@ -5,6 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // see: https://github.com/johnagan/clean-webpack-plugin/pull/138
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/index.js',
     print: './src/print.js'
