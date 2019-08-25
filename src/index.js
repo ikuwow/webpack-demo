@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import yattemiyou from './yattemiyou.jpg';
+import Data from './data.xml';
 
 function component() {
   const element = document.createElement('div');
@@ -11,6 +12,8 @@ function component() {
   const icon = new Image();
   icon.src = yattemiyou;
   element.appendChild(icon);
+
+  console.log(Data);
 
   return element;
 }
