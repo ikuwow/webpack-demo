@@ -12,8 +12,7 @@ module.exports = {
     port: 8585
   },
   entry: {
-    app: './src/index.js',
-    print: './src/print.js'
+    app: './src/index.js'
   },
   plugins: [
     new HtmlWebpackPlugin({
