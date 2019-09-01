@@ -1,16 +1,8 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-// requires brackets because default export is removed
-// see: https://github.com/johnagan/clean-webpack-plugin/pull/138
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-    port: 8585
-  },
   entry: {
     app: './src/index.js'
   },
