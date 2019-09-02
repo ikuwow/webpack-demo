@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import { cube } from './math.js';
 
 function component() {
